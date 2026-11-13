@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About Me | Student Portfolio</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">O. Ajulo<span>.</span></div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="planner.html">Academic Planner</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-subtitle">My background, goals, skills, and what I enjoy outside class.</p>
+
+    <div class="about-grid">
+
+      <div class="info-box">
+        <h3>🎓 Educational Background</h3>
+        <table class="edu-table">
+          <thead>
+            <tr><th>Level</th><th>Institution</th><th>Status</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Undergraduate</td><td>Miva Open University (Cybersecurity)</td><td>In Progress</td></tr>
+            <tr><td>Secondary</td><td>Abeokuta Grammar School</td><td>Completed</td></tr>
+            <tr><td>Course</td><td>COS 106 &mdash; Intro to Web Tech</td><td>Current Semester</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="info-box">
+        <h3>🚀 Career Aspirations</h3>
+        <ul>
+          <li>Become a skilled Cybersecurity Expert</li>
+          <li>Build strong proficiency in how web development works</li>
+          <li>Contribute to securing real-world, user-focused systems</li>
+          <li>Keep learning new security tools and best practices</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h3>🛠️ Technical Skills</h3>
+
+        <div class="skill-bar-label"><span>HTML</span><span>85%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-level="85"></div></div>
+
+        <div class="skill-bar-label"><span>CSS</span><span>75%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-level="75"></div></div>
+
+        <div class="skill-bar-label"><span>JavaScript</span><span>65%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-level="65"></div></div>
+
+        <div class="skill-bar-label"><span>Problem Solving</span><span>80%</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill" data-level="80"></div></div>
+      </div>
+
+      <div class="info-box">
+        <h3>🎨 Hobbies &amp; Interests</h3>
+        <ul>
+          <li>Reading the latest cybersecurity trends on SANS</li>
+          <li>Watching movies on Law &amp; Order</li>
+          <li>Listening to music / exploring new playlists</li>
+          <li>Exploring new apps and gadgets</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> O. Ajulo &mdash; Built for COS 106, Miva Open University</p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

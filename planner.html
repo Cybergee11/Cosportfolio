@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Academic Planner | Student Portfolio</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">O. Ajulo<span>.</span></div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="planner.html" class="active">Academic Planner</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="container">
+    <h2 class="section-title">Academic Planner</h2>
+    <p class="section-subtitle">Add, complete, and delete your academic tasks. Saved automatically in this browser.</p>
+
+    <div class="planner-wrap">
+      <form class="planner-form" id="taskForm">
+        <input type="text" id="taskInput" placeholder="e.g. Submit COS 106 project" required />
+        <input type="date" id="taskDate" />
+        <button type="submit" class="btn">Add Task</button>
+      </form>
+
+      <div class="planner-stats">
+        <span id="taskCount">0 tasks</span>
+        <span id="taskCompleted">0 completed</span>
+      </div>
+
+      <ul id="task-list"></ul>
+      <p class="empty-msg" id="emptyMsg">No tasks yet &mdash; add one above to get started.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> O. Ajulo &mdash; Built for COS 106, Miva Open University</p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

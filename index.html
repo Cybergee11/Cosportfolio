@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Student Portfolio | Home</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">O. Ajulo<span>.</span></div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="planner.html">Academic Planner</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <img src="assets/images/profile.jpg" alt="Student photograph" class="hero-photo" />
+    <div class="hero-text">
+      <h1 id="greeting">Welcome!</h1>
+      <p class="role">Cybersecurity Student &mdash; Miva Open University</p>
+      <p>
+        I'm a student passionate about cybersecurity and building clean,
+        functional websites. This portfolio showcases my academic journey,
+        my projects, and the tools I use to stay organized as a student
+        &mdash; built from scratch with HTML, CSS, and JavaScript for COS 106.
+      </p>
+      <a href="projects.html" class="btn">View My Projects</a>
+      <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+    </div>
+  </div>
+</section>
+
+<main>
+  <section class="container">
+    <h2 class="section-title">A Little About Me</h2>
+    <p class="section-subtitle">
+      Here's a quick snapshot before you dive into the rest of the site.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="card-body">
+          <h3>🎓 Academic Focus</h3>
+          <p>Currently studying Cybersecurity, with a growing interest in how
+          web development works and how to build and secure it.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3>💻 What I Build</h3>
+          <p>Responsive websites, small interactive tools, and projects that
+          combine clean design with practical functionality.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3>🎯 Why This Site</h3>
+          <p>Built as my COS 106 term project &mdash; a personal portfolio and
+          academic management platform in one place.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> O. Ajulo &mdash; Built for COS 106, Miva Open University</p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

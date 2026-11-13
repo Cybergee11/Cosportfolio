@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact | Student Portfolio</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">O. Ajulo<span>.</span></div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="planner.html">Academic Planner</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-subtitle">Fill the form below &mdash; all fields are validated before sending.</p>
+
+    <div class="contact-wrap">
+      <div class="form-success" id="formSuccess">✅ Message validated successfully! (This is a demo form — no backend is connected.)</div>
+
+      <form id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" />
+          <div class="error-text" id="nameError"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="text" id="email" name="email" />
+          <div class="error-text" id="emailError"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" name="phone" />
+          <div class="error-text" id="phoneError"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+          <div class="error-text" id="messageError"></div>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> O. Ajulo &mdash; Built for COS 106, Miva Open University</p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
