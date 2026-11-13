@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" width="400" height="220">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a4a73"/>
+      <stop offset="100%" stop-color="#1d3557"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" fill="url(#g2)"/>
+  <!-- calendar card -->
+  <rect x="130" y="30" width="140" height="150" rx="12" fill="#ffffff"/>
+  <rect x="130" y="30" width="140" height="34" rx="12" fill="#e63946"/>
+  <rect x="130" y="52" width="140" height="12" fill="#ffffff"/>
+  <circle cx="155" cy="47" r="5" fill="#ffffff"/>
+  <circle cx="245" cy="47" r="5" fill="#ffffff"/>
+  <!-- date grid dots -->
+  <g fill="#cfd8e3">
+    <circle cx="150" cy="86" r="4"/><circle cx="174" cy="86" r="4"/><circle cx="198" cy="86" r="4"/><circle cx="222" cy="86" r="4"/><circle cx="246" cy="86" r="4"/>
+    <circle cx="150" cy="110" r="4"/><circle cx="174" cy="110" r="4"/><circle cx="222" cy="110" r="4"/><circle cx="246" cy="110" r="4"/>
+    <circle cx="150" cy="134" r="4"/><circle cx="174" cy="134" r="4"/><circle cx="198" cy="134" r="4"/><circle cx="246" cy="134" r="4"/>
+    <circle cx="150" cy="158" r="4"/><circle cx="174" cy="158" r="4"/><circle cx="198" cy="158" r="4"/><circle cx="222" cy="158" r="4"/>
+  </g>
+  <circle cx="198" cy="110" r="9" fill="#e63946"/>
+  <!-- location pin left -->
+  <path d="M70 110c0-16 13-29 29-29s29 13 29 29c0 22-29 50-29 50s-29-28-29-50z" fill="#ffffff" opacity="0.9"/>
+  <circle cx="99" cy="108" r="11" fill="#1d3557"/>
+  <!-- location pin right -->
+  <path d="M272 70c0-13 10-23 23-23s23 10 23 23c0 18-23 40-23 40s-23-22-23-40z" fill="#ffffff" opacity="0.7"/>
+  <circle cx="295" cy="68" r="9" fill="#1d3557"/>
+  <text x="200" y="207" font-size="15" fill="#ffffffcc" text-anchor="middle" font-family="Segoe UI, sans-serif">Campus Event Finder</text>
+</svg>

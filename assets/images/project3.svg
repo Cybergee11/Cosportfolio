@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" width="400" height="220">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e63946"/>
+      <stop offset="100%" stop-color="#b3273a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" fill="url(#g3)"/>
+  <!-- quiz card -->
+  <rect x="90" y="28" width="220" height="156" rx="12" fill="#ffffff"/>
+  <text x="200" y="58" font-size="18" fill="#1d3557" text-anchor="middle" font-family="Segoe UI, sans-serif" font-weight="bold">Question 3 of 10</text>
+  <rect x="110" y="68" width="180" height="10" rx="4" fill="#eef1f5"/>
+  <rect x="110" y="68" width="63" height="10" rx="4" fill="#e63946"/>
+
+  <!-- answer options -->
+  <rect x="110" y="92" width="180" height="22" rx="6" fill="#eef1f5"/>
+  <circle cx="122" cy="103" r="6" fill="#cfd8e3"/>
+
+  <rect x="110" y="120" width="180" height="22" rx="6" fill="#e6f6ec"/>
+  <circle cx="122" cy="131" r="6" fill="#1a7f4e"/>
+  <path d="M119 131l2 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="110" y="148" width="180" height="22" rx="6" fill="#eef1f5"/>
+  <circle cx="122" cy="159" r="6" fill="#cfd8e3"/>
+
+  <text x="200" y="207" font-size="15" fill="#ffffffee" text-anchor="middle" font-family="Segoe UI, sans-serif">Quiz Practice App</text>
+</svg>
